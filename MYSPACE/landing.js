@@ -82,7 +82,7 @@ loginHeader.addEventListener("click",function(){
 const preventflip = document.querySelectorAll("button,input");
 
 preventflip.forEach((Element) =>{
-    Element.addEventListener("click",function(Event){
+    Element.addEventListener("dblclick",function(Event){
         Event.stopPropagation();
     })
 })
